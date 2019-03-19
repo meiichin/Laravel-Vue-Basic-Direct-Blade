@@ -80,9 +80,9 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div class="content" id="app">
                 <div class="title m-b-md">
-                    Laravel
+                    @{{message}}
                 </div>
 
                 <div class="links">
@@ -96,5 +96,13 @@
                 </div>
             </div>
         </div>
+        <script>
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    message: 'Laravelita'
+                }
+            })
+        </script>
     </body>
 </html>
