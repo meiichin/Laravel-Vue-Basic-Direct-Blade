@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
         <!-- Styles -->
         <style>
